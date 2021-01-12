@@ -1,0 +1,52 @@
+</div>
+</section>
+</div>
+<footer class="main-footer">
+<strong>Copyright &copy; 2020 <a href="http://mediatamaweb.co.id">Mediatama Web Indonesia</a>.</strong>
+
+<div class="float-right d-none d-sm-inline-block">
+  <!--  -->
+</div>
+</footer>
+</div>
+<!-- profile -->
+<div class="modal" id="profilemodal" style="background-color:transparent">
+<div class="modal-dialog modal-sm">
+<div class="modal-content">
+  <div class="modal-body">
+    <center>
+        <img src="/image/AdminLTELogo.png" style="height:180px; width:180px" class="rounded-circle">
+        <br>
+        <strong><h4>Gema Fajar Ramadhan</h4></strong>
+    </center>
+    <ul class="list-group">
+        <li class="list-group-item"><a class="btn btn-outline-warning btn-block">Setting</a></li>
+        <li class="list-group-item"><a href="" class="btn btn-outline-danger btn-block">Keluar</a></li>
+    </ul>
+  </div>
+</div>
+</div>
+</div>
+
+<script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/dist/js/adminlte.min.js"></script>
+<script src="/plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+<script src="/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+<script src="/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+
+<script>
+function showprofile()
+{
+    $('#profilemodal').modal()
+}
+
+$(function () {
+  $("#example1").DataTable({
+    "responsive": true,
+    "autoWidth": false,
+  });
+})
+</script>
+</body>
+</html>
